@@ -1,0 +1,4 @@
+1: npm install dans le dossier front et back
+2: npm install express (dans le dossier back)
+3: lancer le projet dans le dossier front -> npx webpack --watch
+4: lancer le projet dans le dossier back -> npx nodemon ./Serveur.ts

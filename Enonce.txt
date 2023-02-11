@@ -1,0 +1,25 @@
+"AgarVinci" est un clone (simpliste) de Agar.io
+Le but est simple : on dirige un microbe qui évolue dans une vaste surface de jeu, et on se balade à la souris ou au clavier
+pour tenter de manger les différents "bonus" qui sont dispersés partout, ou les autres joueurs.
+Chaque bonus ou joueur mangé nous fait grossir, mais aussi ralentir.
+Pour manger un joueur, il faut être plus gros que lui.
+
+Pour le TP, le gros du projet est déjà développé, toute la logique de jeu, de contrôle, etc.
+Le but est donc de compléter les étapes manquantes :
+
+Dans le fichier back/Serveur.ts :
+- Créer le serveur http Node de base, qui doit servir les fichiers statiques du jeu (présents dans front/dist)
+- Implémenter tous les comportements socket.io tels que précisés dans la partie qui écoute l'évènement "connection" (Ligne 18 : "socket.on("initJoueur"...")
+
+Dans le fichier front/Objets/GestionnaireWebSockets.ts :
+- Implémenter tous les comportements socket.io détaillés dans la fonction "declarerEvenementsSocket"
+
+Rappels de commandes :
+"Compiler" le front pour créer et mettre à jour le dossier front/dist :
+Depuis un terminal ouvert dans le dossier front :
+npx webpack             -> Compile une fois
+npx webpack --watch     -> Compile puis reste en attente pour recompiler automatiquement à chaque modification
+
+Lancer le serveur coté back :
+Depuis un terminal ouvert dans le dossier back :
+npx nodemon Serveur.ts
