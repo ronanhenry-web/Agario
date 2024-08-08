@@ -1,4 +1,4 @@
-# Projet Node.js (Typescript)
+# Projet Agario
 
 Objectif découvrir Express.js et WebSocket
 
