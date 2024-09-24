@@ -1,34 +1,34 @@
-# Projet Agario
+# Agario Project
 
-Objectif découvrir Express.js et WebSocket
+Goal: Discover Express.js and WebSocket
 
-## Démarrer
+## Getting Started
 
-Le projet a été créé sous VSCode, pour le démarrer suivre les étapes suivantes.
+The project was created in VSCode. To start it, follow these steps :
 
-- Cloner le projet
+- Clone the project
 
-Dans la racine du projet front + back faire :
+In the root of the front + back project, run :
 ```bash
 npm i
 ```
 
-Dans le dossier back faire :
+In the back folder, run :
 ```bash
 npm install express
 ```
 
-Lancer le front dans le dossier front :
+Start the front in the front folder :
 ```bash
 npx webpack --watch
 ```
 
-Lancer le back dans le dossier back :
+Start the back in the back folder :
 ```bash
 npx nodemon ./Serveur.ts
 ```
 
-## Sources & Outils
+## Sources & Tools
 
 <a href="https://nodejs.org/fr" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/> </a>
 
